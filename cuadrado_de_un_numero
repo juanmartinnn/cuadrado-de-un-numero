@@ -1,3 +1,5 @@
+//esto es en el archivo myLib.cpp
+
 #include <iostream>
 #include "myLib.h"
 
@@ -24,3 +26,7 @@ int main()
 
     return 0;
 }
+
+// esto es en archivo myLib.h
+int square(int);
+int cube(int);
