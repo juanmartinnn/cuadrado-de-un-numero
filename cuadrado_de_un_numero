@@ -1,0 +1,26 @@
+#include <iostream>
+#include "myLib.h"
+
+using namespace std;
+
+int cube (int x)
+{
+
+    return x*square(x);
+
+}
+int square(int x)
+{
+    return x*x;
+}
+
+int main()
+{
+
+    for (int n = 1; n<=5; n++)
+        cout << "n = " << n << ", n^2 = "
+             << square(n) << endl;
+
+
+    return 0;
+}
